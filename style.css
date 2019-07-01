@@ -43,6 +43,9 @@ a{
 	clear: both;	
 	font-family: 'Special Elite', cursive;
 }
+#pollo h2, #pollo h3{
+	color:#990000;
+}
 .foto{
 	width: 50%;
 	padding: 10px 20px 10px 20px;
