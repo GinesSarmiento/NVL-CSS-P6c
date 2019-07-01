@@ -1,0 +1,104 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	max-width: 1000px;
+	display:block;
+	margin:20px auto 0px auto;
+}
+h1{
+	text-align: center;
+}
+body > p{
+	margin-top: 40px;
+
+}
+body p{
+	padding: 0px 20px 0px 20px;
+	text-indent: 50px;
+}
+
+body > div{
+	margin:50px 0px 50px 0px;
+}
+a{
+	color:black;
+}
+#pollo li{
+	list-style-image: url(images/cuchillo.png);
+}
+#salmon li{
+	list-style-image: url(images/cubiertos.png)
+}
+#salmon{
+	clear: both;
+	font-family: 'Indie Flower', cursive;
+	color:blue;
+}
+#salmon h2{
+	text-decoration: underline;
+}
+#salmon > p{
+	color:red;
+}
+#pollo{
+	clear: both;	
+	font-family: 'Special Elite', cursive;
+}
+.foto{
+	width: 50%;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+img{
+	max-width: 500px;
+	width: 100%;
+	display: block;
+
+	-webkit-box-shadow: 15px 15px 30px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 15px 15px 30px -10px rgba(0,0,0,0.75);
+	box-shadow: 15px 15px 30px -10px rgba(0,0,0,0.75);
+}
+#f-recetas{
+	float:right;
+}
+#f-pollo{
+	float:right;
+}
+#f-salmon{
+	float: left;
+}
+[d-alergeno]{
+	font-weight: bold;
+}
+form > div{
+display: block;
+margin: 20px auto 20px auto;
+width: 500px;
+}
+input, textarea{
+	display: block;
+	margin: 20px auto 20px auto;
+}
+input{
+	height: 30px;
+	width: 300px;
+}
+textarea{
+	height: 90px;
+	width: 300px;
+}
+#boton{
+	display: block;
+margin: 20px auto 20px auto;
+width: 200px;
+height: 50px;
+background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
